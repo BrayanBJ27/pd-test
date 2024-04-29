@@ -110,6 +110,5 @@ jobs:
             username: ${{ secrets.DIGITALOCEAN_USERNAME }}
             key: ${{ secrets.DIGITALOCEAN_SSH_KEY }}
             script: |
-              cd /path/to/your/app
               git pull origin master
               # Add additional commands here for deployment steps
