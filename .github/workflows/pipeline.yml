@@ -107,4 +107,4 @@ jobs:
         uses: digitalocean/app_action@v1.1.6
         with:
           app_name: my_DO_app
-          token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
+          token: ${{secrets.DIGITALOCEAN_ACCESS_TOKEN}}
